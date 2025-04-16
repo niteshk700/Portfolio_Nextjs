@@ -29,9 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {" "}
         <div>{children}</div>
-        <footer className="fixed bottom-0 left-0 w-full bg-black text-white p-4 z-50">
+        <footer className="fixed bottom-0 left-0 w-full text-white p-4 z-50">
           <FloatDock />
         </footer>
       </body>
